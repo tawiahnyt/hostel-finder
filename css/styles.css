@@ -1,0 +1,32 @@
+#main-section {
+    padding: 0 10%;
+}
+
+.main-row {
+    height: 100vh;
+    /* padding: 7%; */
+}
+
+.main-child {
+    padding: 5%;
+}
+
+.main-btn {
+    border-radius: 0;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 900px) {
+    #main-section {
+        padding: 0 5%;
+    }
+
+    .main-row {
+        height: auto;
+    }
+    
+    .main-child {
+        padding: 5% 5%;
+        width: 100%;
+    }
+}
