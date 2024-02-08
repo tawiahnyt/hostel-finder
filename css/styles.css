@@ -1,9 +1,10 @@
 #main-section {
     padding: 0 10%; /* Initial padding */
+    
 }
 
 .main-row {
-    height: 90vh;
+    height: 100vh;
 }
 
 .main-child {
@@ -34,7 +35,7 @@
     }
 
     .main-child {
-        padding: 2% 5%; 
+        /* padding: 2% 5%;  */
     }
 
     .main-btn {
