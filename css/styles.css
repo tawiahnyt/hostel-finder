@@ -92,8 +92,10 @@
     }
 
     .main-child {
-        padding: 3%; /* Adjusted padding */
-        margin-bottom: 20px; /* Adjusted margin */
+        padding: 3%;
+        /* Adjusted padding */
+        margin-bottom: 20px;
+        /* Adjusted margin */
     }
 
     .main-header {
@@ -108,4 +110,31 @@
     .main-btn {
         margin-top: 20px;
     }
+}
+
+.hostel-section {
+    width: 450px;
+    height: 160px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* Setup */
+    position: relative;
+}
+
+.child {
+    color: black;
+    margin: 0;
+    padding: 15px 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.p-text {
+    font-size: 20px;
 }
