@@ -165,3 +165,11 @@
     box-shadow:  5px 5px 5px #dadada,
                 -5px -5px 5px #ffffff;
 }
+
+/* @media (max-width: 650px) {
+    .hostel-preview {
+        display: block;
+        width: fit-content;
+    }
+} */
+
