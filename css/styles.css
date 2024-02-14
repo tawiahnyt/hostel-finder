@@ -55,6 +55,7 @@
 }
  */
 
+/* INDEX.HTML STYLES */
 #main-section {
     padding: 0 10%;
 }
@@ -81,6 +82,7 @@
     font-size: 25px;
 }
 
+/* MEDIA QUERY FOR INDEX.HTML */
 @media (max-width: 992px) {
     #main-section {
         padding: 0 5%;
@@ -120,6 +122,7 @@
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding: 0 50px;
     /* Setup */
     position: relative;
 }
@@ -137,4 +140,25 @@
 
 .p-text {
     font-size: 20px;
+}
+
+.hostel-section-1 {
+    height: 300px;  
+    width: 350px;
+    border-radius: 30px;
+    background-color: aqua;
+    color: black;
+    /* background: linear-gradient(145deg, #e4e1e1, #ffffff);
+    box-shadow:  5px 5px 5px #dadada,
+                -5px -5px 5px #ffffff; */
+}
+
+.hostel-preview {
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: yellow;
+    padding: 0;
+    margin: auto;
+    color: black;
 }
