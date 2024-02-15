@@ -61,7 +61,7 @@ body {
 
 /* INDEX.HTML STYLES */
 #main-section {
-    padding: 0 10%;
+    padding: 0 8%;
 }
 
 .main-row {
@@ -73,21 +73,14 @@ body {
 }
 
 .main-btn {
-    border-radius: 20px;
     margin-top: 50px;
-    padding: 20px;
-    border: 2px solid;
-    outline: #253745;
-    color: #253745;
+    background-color: #253745;
+    color: #fff;
 }
 
 .main-btn:hover {
-    border-radius: 20px;
-    margin-top: 50px;
-    padding: 20px;
-    border: 2px solid;
-    background-color: #253745;
-    color: #fff;
+    border: 1px solid #253745;
+    color: #253745;
 }
 
 .main-header {
@@ -123,7 +116,7 @@ body {
     }
 
     .main-paragraph {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .main-btn {
@@ -184,10 +177,28 @@ body {
                 -5px -5px 5px #ccd0cf;
 }
 
-/* @media (max-width: 650px) {
-    .hostel-preview {
-        display: block;
-        width: fit-content;
-    }
-} */
 
+.hostel-details {
+    border: 2px solid #253745;
+    border-radius: 15px;
+    padding: 20px;
+    color: #253745
+}
+
+.hostel-details:hover {
+    background-color: #253745;
+    color: #fff;
+}
+
+.book-now-btn {
+    background-color: #253745;
+    color: #fff;
+    border: #ccd0cf 2px solid;
+    padding: 10px 20px;
+}
+
+.book-now-btn:hover {
+    background-color: #ccc;
+    color: #253745;
+    font-weight: bold;
+}
